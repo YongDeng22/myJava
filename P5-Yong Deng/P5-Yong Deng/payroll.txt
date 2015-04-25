@@ -1,0 +1,8 @@
+00000   Yong Deng           4166.67
+
+00002   Bob B. Smith        1400.00
+
+00003   Peter Wang          2916.67
+
+00004   George A. Davis     1225.00
+

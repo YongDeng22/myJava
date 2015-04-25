@@ -1,0 +1,266 @@
+	Program 5: A User Database
+		Yong Deng
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 1
+
+Enter your login: yong
+
+Welcome! You logged in as yong.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 2
+
+Enter the employee's category (enter S if Salaried, H if Hourly): h
+
+Enter the employee's login: bob
+
+Enter the employee's salary or hourly rate: 30
+
+Enter the employee name: Bob Smith
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 2
+
+Enter the employee's category (enter S if Salaried, H if Hourly): s
+
+Enter the employee's login: peter
+
+Enter the employee's salary or hourly rate: 70000
+
+Enter the employee name: Peter Wang
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 2
+
+Enter the employee's category (enter S if Salaried, H if Hourly): h
+
+Enter the employee's login: george
+
+Enter the employee's salary or hourly rate: 35
+
+Enter the employee name: George A. Davis
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 5
+
+Enter ID of the employee to remove (Enter 0 to return to main menu) 
+1
+
+Employee David Smith has been removed from the system.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 3
+
+ ID      Login      Salary           Date               Name
+-----  ---------  -----------   -------------   --------------------
+00000	yong	   100000.00	1426627928177	Yong Deng
+00002	bob	       30.00	1426628152378	Bob Smith
+00003	peter	    70000.00	1426628171949	Peter Wang
+00004	george	       35.00	1426628205320	George A. Davis
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 4
+
+Enter ID of the employee to change (Enter 0 to return to main menu) 
+2
+
+Do you want to change the employee's salary or hourly rate? Y/N: y
+
+Enter Bob Smith's new salary: 35
+
+Employee Bob Smith's salary or hourly rate has been set at $35.00.
+
+Do you want to change the employee's name? Y/N: y
+
+Enter Bob Smith's new name: Bob B. Smith
+
+The employee's name has been changed to Bob B. Smith.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 6
+
+Enter the hours Bob B. Smith worked during this pay period: 
+40
+
+Enter the hours George A. Davis worked during this pay period: 
+35
+
+
+************************************
+	   Pay employees
+   Tue Mar 17 17:38:39 EDT 2015
+************************************
+ ID          Name           Pay($)
+-----  ----------------    --------
+00000   Yong Deng           4166.67
+00002   Bob B. Smith        1400.00
+00003   Peter Wang          2916.67
+00004   George A. Davis     1225.00
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 1
+
+Enter your login: bob
+
+Welcome! You logged in as bob.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 3
+
+ ID      Login      Salary           Date               Name
+-----  ---------  -----------   -------------   --------------------
+00002	bob	       35.00	1426628152378	Bob B. Smith
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 2
+
+You don't have authority to perform the operation! Select an option: 
+1
+
+Enter your login: yong
+
+Welcome! You logged in as yong.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 3
+
+ ID      Login      Salary           Date               Name
+-----  ---------  -----------   -------------   --------------------
+00000	yong	   100000.00	1426627928177	Yong Deng
+00002	bob	       35.00	1426628152378	Bob B. Smith
+00003	peter	    70000.00	1426628171949	Peter Wang
+00004	george	       35.00	1426628205320	George A. Davis
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 6
+
+Enter the hours Bob B. Smith worked during this pay period: 
+40
+
+Enter the hours George A. Davis worked during this pay period: 
+35
+
+
+************************************
+	   Pay employees
+   Tue Mar 17 17:40:16 EDT 2015
+************************************
+ ID          Name           Pay($)
+-----  ----------------    --------
+00000   Yong Deng           4166.67
+00002   Bob B. Smith        1400.00
+00003   Peter Wang          2916.67
+00004   George A. Davis     1225.00
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 0
+
+You selected 0: Exit System.
+
+File employee.txt has been updated successfully.
+
+The following employees have been removed from the database: 
+
+
+ ID      Login      Salary           Date               Name
+-----  ---------  -----------   -------------   --------------------
+00001	david	    80000.00	1426627960375	David Smith

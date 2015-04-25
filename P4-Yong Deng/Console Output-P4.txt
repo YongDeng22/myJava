@@ -1,0 +1,133 @@
+	Program 4: A User Database
+		Yong Deng
+
+Error! File employee.txt not found.
+
+Enter the Boss's login: 
+yong
+Enter the Boss's salary: 
+100000
+Enter the Boss's name: 
+Yong Deng
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+1
+
+Enter your login: 
+yong
+Welcome! You logged in as yong.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+2
+
+Enter the employee's login: 
+mike
+Enter the employee's salary: 
+80000
+Enter the employee name: 
+Mike Smith
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+0
+
+You selected 0: Exit System.
+
+File employee.txt has been updated successfully.
+
+
+
+
+
+	Program 4: A User Database
+		Yong Deng
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+1
+
+Enter your login: 
+yong
+Welcome! You logged in as yong.
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+2
+
+Enter the employee's login: 
+david
+Enter the employee's salary: 
+75000
+Enter the employee name: 
+David Brown
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+2
+
+Enter the employee's login: 
+peter
+Enter the employee's salary: 
+70000
+Enter the employee name: 
+Peter Wang
+
+Payroll Menu
+	1. Login 
+	2. Enter employees
+	3. List Employees
+	4. Change employee data
+	5. Terminate an employee
+	6. Pay employees 
+	0. Exit system
+Select a menu option (a number 0-6): 
+0
+
+You selected 0: Exit System.
+
+File employee.txt has been updated successfully.
+

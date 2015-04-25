@@ -1,0 +1,4 @@
+00000    yong         100000.00     Yong Deng           
+00001    michael       80000.00     Michael Brown       
+00002    peter         70000.00     Peter Davis         
+00003    david         75000.00     David Schartz       
